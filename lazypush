@@ -1,2 +1,14 @@
 #!/usr/bin/env bash
 # A script to push files to git
+
+message="$1" # first parameter will be the commit message
+currentBranch=$(git symbolic-ref --short -q HEAD) # get current branch
+
+if [ ! -z "$1" ] # check if the commit message is present
+then
+    git add .
+    git commit -m "$message"
+    git push origin $currentBranch
+else
+    echo "Commit message is not provided"
+fi
