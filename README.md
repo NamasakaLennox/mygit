@@ -30,9 +30,9 @@ open `~/.bashrc` with an editor of your choice and add this line at the end
 ```
 export PATH=$PATH:/home/your_username/mygit
 ```
-3. save the file and exit
+save the file and exit
 
-Execute the bashrc file:
+3. Execute the bashrc file:
 ```
 source ~/.bashrc
 ```
