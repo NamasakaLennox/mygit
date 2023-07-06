@@ -18,3 +18,22 @@ Usage:
 ```
 mod <arg1> <arg2> ...
 ```
+
+## How to use them
+1. Clone the repo at your home directory
+```
+https://github.com/NamasakaLennox/mygit.git
+```
+
+2. export directory to $PATH by adding this command to bashrc
+open `~/.bashrc` with an editor of your choice and add this line at the end
+```
+export PATH=$PATH:/home/your_username/mygit
+```
+save the file and exit.
+execute the bashrc file:
+```
+source ~/.bashrc
+```
+
+3. To run the commands just follow the instructions for each command
